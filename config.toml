@@ -1,4 +1,4 @@
 baseURL = "https://adamaucamp.github.io/hugo-sandbox/"
 languageCode = "en-us"
-title = "test 1234"
+title = "Hugo Sandbox"
 theme = "ananke"
