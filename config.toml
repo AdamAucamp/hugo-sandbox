@@ -2,3 +2,28 @@ baseURL = "https://adamaucamp.github.io/hugo-sandbox/"
 languageCode = "en-us"
 title = "Hugo Sandbox"
 theme = "ananke"
+footnoteReturnLinkContents = "↩"
+
+[[menu.main]]
+    identifier = "about"
+    name = "about"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/about/"
+    weight = -110
+
+[[menu.main]]
+    name = "posts"
+    post = "<span class='alert'>New!</span>"
+    pre = "<i class='fa fa-road'></i>"
+    url = "/posts/"
+    weight = -100
+
+[params]
+  AuthorName = "Jon Doe"
+  GitHubUser = "spf13"
+  ListOfFoo = ["foo1", "foo2"]
+  SidebarRecentLimit = 5
+  Subtitle = "Hugo is Absurdly Fast!"
+
+[permalinks]
+  posts = "/:year/:month/:title/"
